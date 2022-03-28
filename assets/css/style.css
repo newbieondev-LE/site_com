@@ -7,8 +7,6 @@ body{
 }
 a{
   color: crimson;
-  text-decoration: none;
-  
 }
 ul{
   list-style: none;
@@ -93,16 +91,75 @@ hr{
   margin-bottom: -0.8rem;
 }
 
+.entrevistas{
+  margin-bottom: 0.5rem;
+}
+
+.entrevistas ul li{
+  font-size: 0.8rem;
+}
 
 .news button{
   color: #FFF;
   background-color: crimson;
   border: 0.1px solid darkred;
+  cursor: pointer;
 }
 
-.mundo img{
-  width: 30%;
+.mundo div ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.mundo div ul li h3{
+  color: deepskyblue;
+}
+
+.mundo div ul li img{
+  margin: 0 1rem 0 -2rem;
+  width: 100px;
+  height: 75px;
+}
+
+.recentes div ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentes div ul li h3{
+  color: deepskyblue;
+}
+
+.recentes div ul li img{
+  margin: 0 1rem 0 -2rem;
+  width: 100px;
+  height: 75px;
+}
+
+.ultima div h2{
+  margin: 0 0 1px 0;
+}
+
+.ultima div p{
+  margin: 0;
+}
+
+.ultima img{
+  width: 80%;
+}
+
+.destaque div h2{
+  margin: 0 0 1px 0;
+}
+
+.destaque div p{
+  margin: 0;
+}
+
 .destaque img{
  width: 80%;
 }
